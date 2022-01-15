@@ -34,11 +34,11 @@ function createFrequencyCounter(array) {
   return freqs;
 }
 
-console.log(canConstructWord("aa", "abc"));
+canConstructWord("aa", "abc");
 // false -- can't build "aa" with only 1 "a"
 
-console.log(canConstructWord("abc", "dcba"));
+canConstructWord("abc", "dcba");
 // true -- can build "abc" with letters "abcd"
 
-console.log(canConstructWord("aabbcc", "bcabcaddff"));
+canConstructWord("aabbcc", "bcabcaddff");
 // true -- can build "aabbcc" with those letters
